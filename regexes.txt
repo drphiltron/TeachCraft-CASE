@@ -1,0 +1,7 @@
+These are key regular expressions I used. In each pair of lines, the first line is the search string and the second line is the replace string. Note that spaces in both the search and replace strings are important.
+
+^(\d+)\. 
+Standard ** :$1 
+
+^(\d+\.\d+) (.*?:) 
+Element *** :$1 **$2** 
